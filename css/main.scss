@@ -1,0 +1,120 @@
+---
+# Generate this css, pls.
+---
+
+$header-gray: #333;
+
+body {
+  width: 650px;
+  margin: 2em auto;
+}
+
+.content {
+  clear: both;
+  overflow: auto;
+  display: block;
+  margin: 2em auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  //TODO: font-family: "Sans";
+  color: $header-gray;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+h1.title {
+  clear: both;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1px;
+  text-align: center;
+  outline: none;
+  font-size: 4rem;
+  border: none;
+}
+
+h1.page-title {
+  clear: both;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1px;
+  text-align: left;
+  outline: none;
+  font-size: 3rem;
+  border: none;
+}
+
+h1.post-title {
+  clear: both;
+  margin-top: 1.5rem;
+  letter-spacing: 0.1px;
+  text-align: left;
+  outline: none;
+  font-size: 2.5rem;
+  border: none;
+}
+
+.post-date, .post-tags {
+  font-size: 90%;
+  font-weight: 5000;
+  color: $header-gray;
+}
+
+main, .post {
+  padding-top: 1.5em;
+  margin: auto auto;
+}
+
+/* Header/footer stuff! */
+
+div.top-menu {
+  display: inline-block;
+  clear: both;
+
+  border-bottom: 3px solid #eee;
+  float: right;
+
+  a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #000;
+    border-bottom: 3px solid #000;
+  }
+
+  a.main {
+    color: #555;
+    font-size: 120%;
+    font-weight: 300;
+  }
+
+  a.sub {
+    font-weight: 500;
+  }
+}
+
+div.footer {
+  margin-top: 2.5rem;
+  border-top: 3px solid #eee;
+
+  .contact-right {
+    text-align: right;
+    float: right;
+    margin-right: 1%;
+  }
+
+  .contact-left {
+    text-align: left;
+    float: left;
+    margin-left: 1%;
+  }
+}

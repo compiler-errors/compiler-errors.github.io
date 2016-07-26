@@ -1,0 +1,16 @@
+permalink:            pretty
+
+title:                Michael Goulet
+url:                  http://errs.io
+paginate:             1
+baseurl:              /
+
+sass:
+  sass_dir:          sass
+  style:            :compressed
+
+kramdown:
+    input: GFM
+
+gems:
+  - jekyll-paginate
