@@ -125,17 +125,18 @@ div.footer {
   }
 }
 
-pre {
-  max-width: 100%;
+div.highlighter-rouge {
   width: auto;
-  display: block;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-all;
+  border: solid 1px #ddd;
+  background: #fafafa;
+  padding: 8px 15px;
+  line-height: 23px;
+  margin-bottom: 30px;
+  white-space: pre-break;
+  overflow-x: auto;
 }
 
-table {
-  display: block;
-  max-width: 100%;
-  width: auto;
+code {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 75%;
 }
