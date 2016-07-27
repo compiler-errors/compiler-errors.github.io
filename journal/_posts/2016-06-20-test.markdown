@@ -4,11 +4,19 @@ title:  "Hello, world"
 tags: [programming, html]
 ---
 
-test...
+Bacon ipsum dolor amet rump t-bone shank beef ribs bresaola frankfurter. Pancetta beef tri-tip biltong, turkey porchetta jerky doner picanha cupim corned beef bacon salami sirloin. Alcatra prosciutto andouille tri-tip, strip steak swine hamburger shank porchetta pork chuck bacon beef ribs shankle. Beef ribs chuck jerky shankle, shoulder filet mignon ball tip picanha spare ribs venison fatback prosciutto drumstick. Pig shank tongue pancetta pastrami.
 
-```hello, world!```
+Biltong venison tongue shoulder fatback pork belly corned beef andouille ribeye frankfurter filet mignon short loin. Salami tongue strip steak swine, tenderloin kevin chicken rump chuck frankfurter pork belly. Bacon short ribs ham bresaola tenderloin flank, shank ribeye fatback hamburger sirloin capicola cow. Filet mignon fatback shoulder, pork loin hamburger cow prosciutto frankfurter.
 
-## This is a header.
+{% highlight ruby linenos %}
+def show
+  puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
 
-Lorem ipsum or something like that right?
-I really need some fonts.
+Tri-tip flank strip steak drumstick tongue beef jerky, pork cupim filet mignon. Short ribs andouille cupim jowl shoulder pork. Rump flank pork belly salami pig shoulder. Ground round ham shoulder cow pork loin sausage. Picanha beef tri-tip salami leberkas kevin bacon. Meatball picanha filet mignon tri-tip shoulder jerky flank frankfurter brisket biltong fatback beef ribs rump tenderloin leberkas. Bacon biltong leberkas bresaola kevin swine flank salami.

@@ -5,6 +5,7 @@
 $header-gray: #333;
 
 body {
+  font-family: 'Lato', sans-serif;
   width: 650px;
   margin: 2em auto;
 }
@@ -17,7 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  //TODO: font-family: "Sans";
+  font-family: 'Lato', black;
   color: $header-gray;
   line-height: 1;
   margin-top: 1rem;
@@ -30,6 +31,7 @@ h1 {
 }
 
 h1.title {
+  font-family: 'Lalezar', cursive;
   clear: both;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -41,7 +43,9 @@ h1.title {
 }
 
 h1.page-title {
+  font-family: 'Lobster', cursive;
   clear: both;
+  weight: 4000;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   letter-spacing: 0.1px;
@@ -52,6 +56,7 @@ h1.page-title {
 }
 
 h1.post-title {
+  font-family: 'Lobster', cursive;
   clear: both;
   margin-top: 1.5rem;
   letter-spacing: 0.1px;
@@ -68,7 +73,8 @@ h1.post-title {
 }
 
 main, .post {
-  padding-top: 1.5em;
+  line-height: 1.4;
+  padding-top: 1.0em;
   margin: auto auto;
 }
 
@@ -117,4 +123,19 @@ div.footer {
     float: left;
     margin-left: 1%;
   }
+}
+
+pre {
+  max-width: 100%;
+  width: auto;
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+table {
+  display: block;
+  max-width: 100%;
+  width: auto;
 }
