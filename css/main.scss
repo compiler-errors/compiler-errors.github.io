@@ -140,3 +140,10 @@ code {
   font-family: 'Droid Sans Mono', monospace;
   font-size: 75%;
 }
+
+ul {
+  list-style-type: none;
+  li:before {
+    content: "\2605  ";
+  }
+}
