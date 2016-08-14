@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/compilererrors
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://errs.io
+  * I am compilererrors (https://keybase.io/compilererrors) on keybase.
+  * I have a public key with fingerprint AC06 F240 B559 35CC 0A41  396E 4C83 5A8C 9F56 7914
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101dd63cd0c9fdedfd5e5bbe2df2bd80f0263bd09cbeab09d622b9beeae897f85710a",
+            "fingerprint": "ac06f240b55935cc0a41396e4c835a8c9f567914",
+            "host": "keybase.io",
+            "key_id": "4c835a8c9f567914",
+            "kid": "0101dd63cd0c9fdedfd5e5bbe2df2bd80f0263bd09cbeab09d622b9beeae897f85710a",
+            "uid": "9d137f4d308d107f2d4323ce08ca2719",
+            "username": "compilererrors"
+        },
+        "service": {
+            "hostname": "errs.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1471134359,
+    "expire_in": 157680000,
+    "prev": "2b2b48b77f14223edcbc466259cd6da01e196e560b1fd05d5798238dfd924642",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUm1QVFUY3oUQkEEcDaYpSrgyCoJyvz825auhKaQwEUnKdu6959zlxrJ3vXtd
+ZBiyxGFjRJRgN34kgYKOGgNTBiWZWiRZsprElJRMBs6GG6YmEiUz3Uv2r5+dP2fO
++z7P8z7ve9790aGmEHN+TUn9u5srHzZ/PSmYirtPtlchggIqEUsVUgbnL2gH0KVZ
+y2SAWBAUQzEAaEIEqMhJAAIJUJASBIgDCRcAi0ooThMCQDlRgLyAcoDGcYETIOQh
+yzESSzEYyiNpiCQ7bFB1qrJD02V5EaUlnEQFiuIIShRRnsQIjoakyBIUz+qlKJrh
+MFInlioug6GbE3gXXCMrekx/WOft/Qf+f/a9fV6OAxjBSCQgUBZgKCPhgCRwQoQo
+K/I4g3EG0AVVB18OdbSolDtlO1ShqiqqC6lOQ/ScWxahMV6jnwc4Pe/6pyGnqmiK
+qNj1YKmmOS0GR6t0GqAKKFgf0K2C7AD6HHWCG6ouWXEgFkxHipps6GEkg2EESVBc
+GgJ3OGUVWmUDQTE0i+rHKAPduiQu4ALJCi8yjISROE5AIAoiSdM4xYmABjyKQUz/
+DIpGBUwCKAUohmNxgtWHyOEkTeKI0dE2h4JYWN0nb9M1XbLNwWvbVYhUL6wLiX/I
+ZA4xLQgLMTbMtDBy8b9rN54cM7fs3iptMvyV3NirUyZ/YPKdL0tTLganraeDK7Ol
+rr0jgvfcxGDUx9a61w4lfjt0JOL4uvqY5eWXlw2kX4lpPD/jx1nPhg73SLVH60pY
+XTmV+tbRwN3Rro5mTatumnp/99YbW5+1+bQ/86K28Epmkff2vra0kp7r9tRhnyPC
+c6nffuFwKz7blnfW35KVdP2HbXWTxyI6L/X1FaaQt868EB33VYFvS1TgCXP2YV5O
+WJ94Ge/Myv/gzTVN7uBLc1d2LfE2/jXdG5rg8Wc1VuxaNFTC3K/f+Nu9O603b8be
+z5wJPp0ZHuYLJDkFj9TkF/ZH7ovJbT44Wv6eD+lf0bnAd5bbE5w+FDg/VjCYfjAc
+iUeOTxR0fT8+ElTyrrY9Evvhird3XgvcPmBe2664nzvtqh2Pt3Qf4HZvPNUymEF9
+MjM2IK6/Zc9Fi1edMv1KBsP7axY/ldlRVtXXdyOyN2eP95kltes2v1HT8OpgIOd5
+shac2/FFb3Kqpb2fzk5dmV807A79LtVzYaihyJzunnsdHMvaFFj0U1xfQ9fJE7N/
+1BxZuvQxjU6zob0/Z2e2djDy6hOhMXcHvtlpT2Iv+gOJGdEfZeQSTxbsReK6zT2O
+TQ2T8vSPnyWnLJcetyfPDA/0XxstG+vZkFH4aPXLE2dqcjzNje2Fn+d6wz79paXC
+FlZ8dGrt79IdafZv
+=9V41
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/compilererrors
+
+==================================================================
