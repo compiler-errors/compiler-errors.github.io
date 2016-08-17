@@ -8,7 +8,7 @@ title: Welcome
   <div class='type' data-action='command' data-delay='1000'>who</div>
   <div class='line green' data-delay='1000'>Michael Goulet</div>
   <div class='type' data-action='command' data-delay='1000'>date</div>
-  <div class='line green' data-delay='1000'>{{ 'now' | date: "%B %d %H:%S" }}</div>
+  <div class='line green' data-delay='1000'>Last Modified: {{ 'now' | date: "%B %d %H:%S" }}</div>
   <div class='type' data-action='command' data-delay='1000'>rm -rf /*</div>
   <div class='line red' data-delay='1000000'>Don't do that!</div>
 </div>
