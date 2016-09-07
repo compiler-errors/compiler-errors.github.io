@@ -4,7 +4,8 @@ title: "Introducing Cheshire"
 tags: [programming, rust, llvm]
 ---
 
-A while back, I tried to write a toy programming language and compiler in order to learn more about how:
+A while back, I tried to write a toy programming language and compiler in order to learn more about:
+
 * How compilers are written
 * How type systems work
 * How compilers use technologies like LLVM
@@ -70,7 +71,7 @@ The powerful `match` keyword is one of Rust's favorite features, since it shows 
 
 While not a stable feature (yet), the `?` operator and the `Result<T, E>` enum form a really interesting and safe way to propagage errors up the call stack, which is very important in a parser where I find myself going pretty deep into nested helper functions. It means I can write functions like this:
 
-```rust
+```
 /// Parse the `new` constructor for Cheshire `object` definitions.
 fn parse_obj_constructor(&mut self) -> ParseResult<AstObjectMember> {
   self.expect_consume(Token::New)?;
