@@ -15,6 +15,6 @@ title: Welcome
 
 __Hi!__ I'm Michael Goulet, and this is my personal site that I hope to use to keep track of my programming endeavors and record what I'm up to. I am currently a student studying Computer Science and Mathematics at Caltech in Los Angeles.
 
-I enjoy programming in C++, Python, and Java, and have currently taken quite an interest in deepening my knowledge in Rust. I particularly like studying about compilers, operating systems, and computer graphics.
+I enjoy programming in C++, Python, and Java, and have currently taken quite an interest in deepening my knowledge in Rust. I particularly like studying compilers, operating systems, and computer graphics.
 
 During the Summer 2016, I will be working at Nasa's Jet Propulsion Laboratory doing software development through a Summer Undergraduate Research Fellowship. During the Summer 2015, I worked at Hewlett-Packard doing Linux Software Engineering working on thin client devices and operating system virtualization.
