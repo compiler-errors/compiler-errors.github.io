@@ -4,7 +4,7 @@ https://keybase.io/compilererrors
 
 I hereby claim:
 
-  * I am an admin of http://errs.io
+  * I am an admin of http://www.errs.io
   * I am compilererrors (https://keybase.io/compilererrors) on keybase.
   * I have a public key with fingerprint AC06 F240 B559 35CC 0A41  396E 4C83 5A8C 9F56 7914
 
@@ -21,48 +21,54 @@ To do so, I am signing this object:
             "uid": "9d137f4d308d107f2d4323ce08ca2719",
             "username": "compilererrors"
         },
+        "revoke": {
+            "sig_ids": [
+                "ac71805471fe13df430b28c4c3ccb029de39523b73ea7b76d98772d6280311c10f"
+            ]
+        },
         "service": {
-            "hostname": "errs.io",
+            "hostname": "www.errs.io",
             "protocol": "http:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1471134359,
+    "ctime": 1492214384,
     "expire_in": 157680000,
-    "prev": "2b2b48b77f14223edcbc466259cd6da01e196e560b1fd05d5798238dfd924642",
-    "seqno": 8,
+    "prev": "5f2536287fa718c5f909edce8c40bc18881fefdbc4a358760903a3d513fdf1f7",
+    "seqno": 18,
     "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG v1
 
-owGtUm1QVFUY3oUQkEEcDaYpSrgyCoJyvz825auhKaQwEUnKdu6959zlxrJ3vXtd
-ZBiyxGFjRJRgN34kgYKOGgNTBiWZWiRZsprElJRMBs6GG6YmEiUz3Uv2r5+dP2fO
-+z7P8z7ve9790aGmEHN+TUn9u5srHzZ/PSmYirtPtlchggIqEUsVUgbnL2gH0KVZ
-y2SAWBAUQzEAaEIEqMhJAAIJUJASBIgDCRcAi0ooThMCQDlRgLyAcoDGcYETIOQh
-yzESSzEYyiNpiCQ7bFB1qrJD02V5EaUlnEQFiuIIShRRnsQIjoakyBIUz+qlKJrh
-MFInlioug6GbE3gXXCMrekx/WOft/Qf+f/a9fV6OAxjBSCQgUBZgKCPhgCRwQoQo
-K/I4g3EG0AVVB18OdbSolDtlO1ShqiqqC6lOQ/ScWxahMV6jnwc4Pe/6pyGnqmiK
-qNj1YKmmOS0GR6t0GqAKKFgf0K2C7AD6HHWCG6ouWXEgFkxHipps6GEkg2EESVBc
-GgJ3OGUVWmUDQTE0i+rHKAPduiQu4ALJCi8yjISROE5AIAoiSdM4xYmABjyKQUz/
-DIpGBUwCKAUohmNxgtWHyOEkTeKI0dE2h4JYWN0nb9M1XbLNwWvbVYhUL6wLiX/I
-ZA4xLQgLMTbMtDBy8b9rN54cM7fs3iptMvyV3NirUyZ/YPKdL0tTLganraeDK7Ol
-rr0jgvfcxGDUx9a61w4lfjt0JOL4uvqY5eWXlw2kX4lpPD/jx1nPhg73SLVH60pY
-XTmV+tbRwN3Rro5mTatumnp/99YbW5+1+bQ/86K28Epmkff2vra0kp7r9tRhnyPC
-c6nffuFwKz7blnfW35KVdP2HbXWTxyI6L/X1FaaQt868EB33VYFvS1TgCXP2YV5O
-WJ94Ge/Myv/gzTVN7uBLc1d2LfE2/jXdG5rg8Wc1VuxaNFTC3K/f+Nu9O603b8be
-z5wJPp0ZHuYLJDkFj9TkF/ZH7ovJbT44Wv6eD+lf0bnAd5bbE5w+FDg/VjCYfjAc
-iUeOTxR0fT8+ElTyrrY9Evvhird3XgvcPmBe2664nzvtqh2Pt3Qf4HZvPNUymEF9
-MjM2IK6/Zc9Fi1edMv1KBsP7axY/ldlRVtXXdyOyN2eP95kltes2v1HT8OpgIOd5
-shac2/FFb3Kqpb2fzk5dmV807A79LtVzYaihyJzunnsdHMvaFFj0U1xfQ9fJE7N/
-1BxZuvQxjU6zob0/Z2e2djDy6hOhMXcHvtlpT2Iv+gOJGdEfZeQSTxbsReK6zT2O
-TQ2T8vSPnyWnLJcetyfPDA/0XxstG+vZkFH4aPXLE2dqcjzNje2Fn+d6wz79paXC
-FlZ8dGrt79IdafZv
-=9V41
+owGtkn1MVWUcx4GQgGCoIMQaFKcXbBCd95d7caADAtQhkECQXc85z3PgDLj3cs7l
+EiLEzDQQC6etjXgRQkxGu9Kghc6WSCJKg+ErOAcZMi/GFs5cE+j2XNL/+rPzz7Pz
+PN/f9/f5fZ+nMfA5D1/PbR/nN7TlVIZ4XnFKHnmLUmUVJllAJWaoworh6gJLANRt
+pmIVYAYMJ3ACAJaSAS4LCoBAAQxkJAmSQCElwOMKTrKUBHBBlqAo4QJgSVISJAhF
+yAucwjMcgYtYLKao5kKoWTXVbEO2ooyzCknjEsMIFCPLuEgTlMBCWuYpRuRRK4bl
+BIJGhUUW3V2B4CRRh3GqBe2hH9Mq3n/o/2fu8lU7ARAUp9CAwnlA4JxCApoiKRni
+vCySHCG4hTrUzGIpRGrZUmpVS6AGNc2i6Vh1LKZBu6UYutPV1UKErmOGAhQCR/A4
+Q3OEAgkKKDSFSyQv0zIlyxJOCgBSAkNSEkdBkZM4Fgg8x5EIlMcpgpAJXMF2IW/U
+167Kq+burJ4yVFRUxKH++r+BWTWLzSJbStBBkc1mNbiZbAOV1lUllExPPUySagbo
+olCFHWq6ajFjBgJJZZvqNiVogSQJmuLpWAx+aFU1aFLdCoZjeRx97j7QjiwZhWQo
+xMkpIhpRZhQBFyCQIRoOl2SC53k0sgIkmRYphudYXMApkQIMQSlAIRQOc09VZrYg
+bx6BioXIEwVnFm3lGsSq/eu8KG8PT1+PiNAo7x6fh4n97zGj/psF87PHvcbL/bI9
+/P3WPtvJPBjkknyrTa3ziaFJc0bzntyVy2DTZFXEwmzd3jTjoyOeSmtUZERnX6tz
+of3Psg27+aNPzrAHF6+rky2vB0Rs/X7+hNN1bfLdq8zI9qHB2eT08e6mrOPsvUPF
+XZG3DpT6Jr+dMmEtW4FCz+zwRMbLzXPTGVpBXs6V4YB8Y3+jIbjC4FgfZlqZemRl
+A9vHc+8Vtiqv9ZExrqXrLd+61I3xX6yNCW/WM8/ePFzbNdo999j5OCvSFc2e/+Pm
+rZ1tvZubok6+VbrBFnjq3NQHDRePt309tNsYWZT313zNsbBg+Z3B1IyOh+ljxhdr
+l4teKTntf1toLLwa4d1Xl5tgXfdZynLqj0y9X/Yb+/08zi35HgrL1hLGX7U7dty4
+e3nsm9+mXGMnTdK1jqNB2+ujfzEkk/a2hpCC3qaBE3v6poNzZ0+n3xn10T96YZ/j
+k96a1AXPzAvx4ZGJPe0/29KIgLC2rM+nb9RPzCb47C1ubpneeeHJ7/Supa7wlr+T
+t7TQdOjQxpGUolh5MX0k5FJbdh6wd1duuQ+/O2A61ptTse0ruD9ooCmu1uuH4TMZ
+0dS6I/oDPnjrYLqht/182d3FGqJyuqHc0e2cCI83X3rzpaSfYuq/dHamOWqjkm4/
+6Mh3PK//en/9zOIayanf6QyfWRadMe9/Gunax6pBuTuMh2cunmpfcphm+nPm8s5u
++gc=
+=TmFs
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -71,3 +77,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/compilererrors
 
 ==================================================================
+

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing Cheshire"
-tags: [programming, rust, llvm]
+tags: [programming, rust, compiler, llvm]
 ---
 
 A while back, I tried to write a toy programming language and compiler in order to learn more about:
