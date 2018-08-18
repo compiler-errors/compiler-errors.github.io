@@ -1,0 +1,50 @@
+<!doctype HTML>
+
+{% capture terminal_start_home %}
+<span class="terminal hostname">{{page.hostname}}</span><span class="terminal dir">:~</span>
+{% endcapture %}
+
+{% capture terminal_start %}
+<span class="terminal hostname">{{page.hostname}}</span><span class="terminal dir">:{{page.pwd}}</span>
+{% endcapture %}
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div class="site">
+      <!-- HEADER -->
+      <div class="terminal">
+        {{ terminal_start_home }}
+        <span class="terminal command" style="">ls</span>
+        <nav class="terminal grid">
+          {% for dir in page.directories %}
+            <span class="grid-item"><a href="{{dir.link}}" style="color: {{dir.color}};">{{dir.name}}</a></span>
+          {% endfor %}
+        </nav>
+      </div>
+      <!-- END HEADER -->
+
+      <!-- BODY -->
+      {% if page.pwd != "~" %}
+      <div class="terminal">
+        {{ terminal_start_home }}
+        <span class="terminal command">cd {{page.pwd | replace_first:"~/","" }}</span>
+      </div>
+
+      {% endif %}
+      <div>
+        {{ content }}
+      </div>
+      <!-- END BODY -->
+
+      <!-- FOOTER -->
+      <div class="terminal">
+        {{ terminal_start }}
+        <span class="terminal command blink">|</span>
+      </div>
+      <!-- END FOOTER -->
+    </div>
+  </body>
+</html>

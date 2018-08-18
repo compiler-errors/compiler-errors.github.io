@@ -1,0 +1,57 @@
+.site {
+  font-family: monospace;
+  width: 600px;
+  margin: 1em auto;
+}
+
+.content {
+  margin: auto 1em;
+}
+
+.centered {
+  text-align: center;
+}
+
+nav.grid {
+  margin-top: 0.25em;
+}
+
+.terminal {
+  margin-bottom: 0.75em;
+}
+
+.hostname {
+  color: IndianRed;
+}
+
+.command {
+  color: DimGray;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 8rem 8rem 8rem 8rem 8rem;
+}
+
+.grid-item {
+}
+
+a {
+  text-decoration: none;
+  color: DodgerBlue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.blink {
+  animation: blinker 0.8s linear infinite;
+}
+
+@keyframes blinker {
+  0% { opacity: 0.8; }
+	50% { opacity: 0.8; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}

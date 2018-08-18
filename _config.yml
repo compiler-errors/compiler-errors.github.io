@@ -1,0 +1,26 @@
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      pwd: "~/posts/"
+  -
+    scope:
+      path: ""
+    values:
+      hostname: "michael@errs.io"
+      directories:
+        -
+          name: "github/"
+          link: "https://github.com/compiler-errors"
+          color: ForestGreen
+        -
+          name: "whoami.txt"
+          link: "/"
+          color: DodgerBlue
+        -
+          name: "resume.pdf"
+          link: "/resume.pdf"
+          color: DodgerBlue

@@ -1,0 +1,19 @@
+---
+layout: common
+---
+
+{% capture terminal_start %}
+<span class="terminal hostname">{{page.hostname}}</span><span class="terminal dir">:{{page.pwd}}</span>
+{% endcapture %}
+
+<div class="main">
+  <main>
+    <div class="terminal">
+      {{ terminal_start }}
+      <span class="terminal command">{{page.command}}</span>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+  </main>
+</div>
