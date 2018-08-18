@@ -14,7 +14,7 @@ defaults:
       directories:
         -
           name: "posts/"
-          link: "/posts/"
+          link: "/posts"
           color: ForestGreen
         -
           name: "github/"

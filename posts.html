@@ -10,10 +10,10 @@ command: "ls -la posts/"
   <a href="/"><span class="post-grid-item-static">{{"now" | date: "%Y-%m-%d %H:%M" }}</span></a>
   <a href="/"><span class="post-grid-item-static">..</span></a>
 
-  <a href="/posts/"><span class="post-grid-item-static">drwxr-xr-x</span></a>
-  <a href="/posts/"><span class="post-grid-item-static">michael</span></a>
-  <a href="/posts/"><span class="post-grid-item-static">{{"now" | date: "%Y-%m-%d %H:%M" }}</span></a>
-  <a href="/posts/"><span class="post-grid-item-static">.</span></a>
+  <a href="/posts"><span class="post-grid-item-static">drwxr-xr-x</span></a>
+  <a href="/posts"><span class="post-grid-item-static">michael</span></a>
+  <a href="/posts"><span class="post-grid-item-static">{{"now" | date: "%Y-%m-%d %H:%M" }}</span></a>
+  <a href="/posts"><span class="post-grid-item-static">.</span></a>
 
   {% for post in site.posts %}
     <a href={{post.url}}><span class="post-grid-item">-rw-r--r--</span></a>
