@@ -6,6 +6,7 @@
 
 .content {
   margin: auto 1em;
+  margin-bottom: 2em;
 }
 
 .centered {
@@ -28,17 +29,30 @@ nav.grid {
   color: DimGray;
 }
 
-.grid {
+.nav-grid {
   display: grid;
   grid-template-columns: 8rem 8rem 8rem 8rem 8rem;
 }
 
-.grid-item {
+.nav-grid-item {
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns:  6rem 6rem 10rem 8rem;
+}
+
+.post-grid-item-static {
+  color: OliveDrab;
+}
+
+.post-grid-item {
+  color: DodgerBlue;
 }
 
 a {
   text-decoration: none;
-  color: DodgerBlue;
+  color: OliveDrab;
 }
 
 a:hover {

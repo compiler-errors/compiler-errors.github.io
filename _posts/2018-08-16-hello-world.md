@@ -1,7 +1,9 @@
 ---
-short_name: "hello_world.txt"
+short_title: "hello_world.txt"
+title: "Yeet"
+date: "2018-08-16 19:02"
 ---
 
-## Henlo, world.
+## Hello, world!
 
-THis is my new bloge.
+This is my new blog. I hope to write informative posts here.

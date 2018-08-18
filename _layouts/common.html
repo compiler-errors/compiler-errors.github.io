@@ -18,9 +18,9 @@
       <div class="terminal">
         {{ terminal_start_home }}
         <span class="terminal command" style="">ls</span>
-        <nav class="terminal grid">
+        <nav class="terminal nav-grid">
           {% for dir in page.directories %}
-            <span class="grid-item"><a href="{{dir.link}}" style="color: {{dir.color}};">{{dir.name}}</a></span>
+            <span class="nav-grid-item"><a href="{{dir.link}}" style="color: {{dir.color}};">{{dir.name}}</a></span>
           {% endfor %}
         </nav>
       </div>

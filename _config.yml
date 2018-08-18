@@ -13,6 +13,10 @@ defaults:
       hostname: "michael@errs.io"
       directories:
         -
+          name: "posts/"
+          link: "/posts/"
+          color: ForestGreen
+        -
           name: "github/"
           link: "https://github.com/compiler-errors"
           color: ForestGreen

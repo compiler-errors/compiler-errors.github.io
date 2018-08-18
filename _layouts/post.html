@@ -3,16 +3,17 @@ layout: common
 ---
 
 {% capture terminal_start %}
-<span class="terminal hostname">{{page.hostname}}:{{page.pwd}}</span>
+<span class="terminal hostname">{{page.hostname}}</span><span class="terminal dir">:{{page.pwd}}</span>
 {% endcapture %}
 
 <div class="main">
   <main>
     <div class="terminal">
       {{ terminal_start }}
-      <span class="terminal command">cat {{page.short_name}}</span>
+      <span class="terminal command">cat {{page.short_title}}</span>
     </div>
     <div class="content">
+      <h2>{{page.title}}</h2>
       {{ content }}
     </div>
   </main>

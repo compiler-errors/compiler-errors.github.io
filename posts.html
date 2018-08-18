@@ -1,0 +1,24 @@
+---
+layout: "cmd"
+pwd: "~"
+command: "ls -la posts/"
+---
+
+<div class="terminal post-grid">
+  <a href="/"><span class="post-grid-item-static">drwxr-xr-x</span></a>
+  <a href="/"><span class="post-grid-item-static">michael</span></a>
+  <a href="/"><span class="post-grid-item-static">{{"now" | date: "%Y-%m-%d %H:%M" }}</span></a>
+  <a href="/"><span class="post-grid-item-static">..</span></a>
+
+  <a href="/posts/"><span class="post-grid-item-static">drwxr-xr-x</span></a>
+  <a href="/posts/"><span class="post-grid-item-static">michael</span></a>
+  <a href="/posts/"><span class="post-grid-item-static">{{"now" | date: "%Y-%m-%d %H:%M" }}</span></a>
+  <a href="/posts/"><span class="post-grid-item-static">.</span></a>
+
+  {% for post in site.posts %}
+    <a href={{post.url}}><span class="post-grid-item">-rw-r--r--</span></a>
+    <a href={{post.url}}><span class="post-grid-item">michael</span></a>
+    <a href={{post.url}}><span class="post-grid-item">{{post.date | date: "%Y-%m-%d %H:%M" }}</span></a>
+    <a href={{post.url}}><span class="post-grid-item">{{post.short_title}}</span></a>
+  {% endfor %}
+</nav>
