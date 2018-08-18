@@ -46,4 +46,8 @@ My dream topic in CS (for example, if I were to pursue a PhD) would be studying 
 
 ### Contact Me!
 
-Reach out to me at my email: `michael@errs.io`. If you prefer encrypted communication, my telegram is [@compiler_errors](https://t.me/compiler_errors). My phone number and other contact information available on request!
+Reach out to me at my email: [michael@errs.io](mailto:michael@errs.io) or [michael.goulet@errs.io](mailto:michael.goulet@errs.io).
+
+If you prefer encrypted communication, my telegram is [@compiler_errors](https://t.me/compiler_errors). My instagram and twitter handles are
+
+My phone number and other contact information is available on request!
