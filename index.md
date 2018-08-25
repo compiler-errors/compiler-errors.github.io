@@ -24,11 +24,19 @@ command: "cat whoami.txt"
 
 I'm Michael Goulet. I was born and grew up in Houston, TX. Some things that I love are computers, functional programming, Magical Realism fiction, contemporary art, and Italian greyhounds.
 
+## Interests
+
+In the realm of CS, I'm strongly interested in: scalability, compilers, functional programming, computer graphics, and distributed computing. I am always thinking about how programming language design affects the architecture and maintainability of large-scale projects in different domains.
+
+My dream topic in CS (for example, if I were to pursue a PhD) would be studying and comparing how programming language fit together at the different levels of a scalable system. Developing an architecture that emphasizes foreign function calls as a first-class citizen would be neat, since my philosophy is that at each level of a system, the best programming language paradigm for the problem should be used. I touched a bit on this topic during my CS 123 (Database Projects) course, where a classmate and I implemented an extremely extensible SQL optimizer in Scala on top of a database that was originally fully written in Java.
+
 ## Work
 
-This summer, I'm working at Facebook as a Production Engineer Intern on Video Infrastructure. I'm working on the Comprehension team, where we manage services surrounding video detection (e.g. copyright).
+This summer, I'm working at Facebook as a Production Engineer Intern on Video Infrastructure. I'm working on the Comprehension team, where we manage services surrounding video detection (e.g. copyright). Since I'm not working on an open source project like last year, I can't talk much about what I'm working on; however, I worked primarily on developing internal tooling to help my team move faster, and rolled out some internal services around video copyright detection.
 
-Last summer, I worked at Facebook as a PE Intern on the POSIX Storage team. I worked on improving the performance of multi-tenant storage volumes on a distributed filesystem called GlusterFS. Some of my work is open sourced! Check it out [here](https://github.com/gluster/glusterfs/commit/8dfdecf220d1c9365e1f8d6af9ead5e48c61e2eb) and watch my talk that I gave in Europe  [here](https://www.youtube.com/watch?v=7rY49GrOPWY) -- give me some slack, I was very jet-lagged (:P). I might make a blog post about it some time soon.
+I did work on some open source stuff this year -- I enabled TLS support on RTMP streams in a popular gamer streaming platform called OBS. Check out the pull request [here](https://github.com/obsproject/obs-studio/pull/1360) and see the merged code in commit (e67e2e12)[https://github.com/obsproject/obs-studio/commit/e67e2e12e61a5f5e111afc445b2f3256b8034c9b]. It got rolled out in v22, so if you're using Facebook Live in OBS, you're probably encrypted without even noticing!
+
+Last summer, I worked at Facebook as a PE Intern on the POSIX Storage team. I worked on improving the performance of multi-tenant storage volumes on a distributed filesystem called GlusterFS. Most of my work is open sourced! Check it out [here](https://github.com/gluster/glusterfs/commit/8dfdecf220d1c9365e1f8d6af9ead5e48c61e2eb) and watch my talk that I gave at the yearly Gluster Conference in Prague, CZ, EU [here](https://www.youtube.com/watch?v=7rY49GrOPWY) -- I might sound a bit nervous, but give me some slack, I was very jet-lagged (:P). I might make a blog post about it some time soon, since I'm still keeping tabs on my work and hope to eventually improve it further.
 
 Before working at Facebook, I worked in the Marine Autonomy lab at the NASA Jet Propulsion Laboratory, working on an message-passing API called CTOC. I worked primarily on making sure that the messages that the library emitted were CORBA-compliant and that the library was reliable, since it is running in a very resource-intensive environment. Send me an email if you'd like to read my paper!
 
@@ -36,13 +44,7 @@ Finally, even before that, I worked at HP on the Linux Thin Clients R&D team, wo
 
 ## Education
 
-I'm currently a senior at Caltech in Pasadena, CA in the Greater Los Angeles area. I study Computer Science and am working on getting a double major in English, hopefully completing a senior thesis in either contemporary poetry or Latin@ literature. I am a TA for a lot of OS/systems and database project classes at Caltech; I try to TA at least one class per term, since teaching is as important as learning, and I learn a lot from helping others.
-
-## Interests
-
-In the realm of CS, I'm strongly interested in: scalability, compilers, functional programming, computer graphics, and distributed computing. I am always thinking about how programming language design affects the architecture and maintainability of large-scale projects in different domains.
-
-My dream topic in CS (for example, if I were to pursue a PhD) would be studying and comparing how programming language span the different levels of a scalable system. I touched a bit on this topic during my CS 123 (Database Projects) course, where a classmate and I implemented an extremely extensible SQL optimizer in Scala on top of a database that was fully written in Java.
+I'm currently a senior at Caltech in Pasadena, CA in the Greater Los Angeles area. I study Computer Science and am working on getting a double major in English, hopefully completing a senior thesis in either contemporary poetry or Latin@ literature. I am a TA for a lot of OS, systems and database project courses at Caltech; I try to TA at least one class per term, since teaching is as important as learning, and I learn a lot from helping others.
 
 ### Contact Me!
 
