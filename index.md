@@ -32,7 +32,7 @@ My dream topic in CS (for example, if I were to pursue a PhD) would be studying 
 
 ## Work
 
-This summer, I'm working at Facebook as a Production Engineer Intern on Video Infrastructure. I'm working on the Comprehension team, where we manage services surrounding video detection (e.g. copyright). Since I'm not working on an open source project like last year, I can't talk much about what I'm working on; however, I worked primarily on developing internal tooling to help my team move faster, and rolled out some internal services around video copyright detection.
+This summer, I'm working at Facebook as a Production Engineer Intern on Video Infrastructure. I'm working on the Comprehension team, where we manage services surrounding video detection (e.g. copyright). Since I didn't work on an open source project like last year, I can't talk much about my projects. However, I worked primarily on developing internal tooling to help my team, and rolled out some internal services surrounding video copyright detection.
 
 I did work on some open source stuff this year -- I enabled TLS support on RTMP streams in a popular gamer streaming platform called OBS. Check out the pull request [here](https://github.com/obsproject/obs-studio/pull/1360) and see the merged code in commit (e67e2e12)[https://github.com/obsproject/obs-studio/commit/e67e2e12e61a5f5e111afc445b2f3256b8034c9b]. It got rolled out in v22, so if you're using Facebook Live in OBS, you're probably encrypted without even noticing!
 
