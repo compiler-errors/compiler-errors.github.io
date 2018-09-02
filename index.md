@@ -28,7 +28,9 @@ I'm Michael Goulet. I was born and grew up in Houston, TX. Some things that I lo
 
 In the realm of CS, I'm strongly interested in: scalability, compilers, functional programming, computer graphics, and distributed computing. I am always thinking about how programming language design affects the architecture and maintainability of large-scale projects in different domains.
 
-My dream topic in CS (for example, if I were to pursue a PhD) would be studying and comparing how programming language fit together at the different levels of a scalable system. Developing an architecture that emphasizes foreign function calls as a first-class citizen would be neat, since my philosophy is that at each level of a system, the best programming language paradigm for the problem should be used. I touched a bit on this topic during my CS 123 (Database Projects) course, where a classmate and I implemented an extremely extensible SQL optimizer in Scala on top of a database that was originally fully written in Java.
+My dream topic in CS (for example, if I were to pursue a PhD) would be to study the way programming languages fit together in the different levels of a scalable system. Developing an architecture that emphasizes foreign function calls in a first-class way would be neat, since my philosophy is that the best programming language should be employed at each level of a complex software system. 
+
+I exmplored a bit of this during my CS 123 (Database Projects) course, where a classmate and I implemented an extremely extensible SQL optimizer in Scala on top of a database that was originally fully written in Java. It was amazing to being able to employ a functional programming language in the optimizer, and falling back to an imperative language in the much less functional-oriented storage code!
 
 ## Work
 
@@ -45,6 +47,8 @@ Finally, even before that, I worked at HP on the Linux Thin Clients R&D team, wo
 ## Education
 
 I'm currently a senior at Caltech in Pasadena, CA in the Greater Los Angeles area. I study Computer Science and am working on getting a double major in English, hopefully completing a senior thesis in either contemporary poetry or Latin@ literature. I am a TA for a lot of OS, systems and database project courses at Caltech; I try to TA at least one class per term, since teaching is as important as learning, and I learn a lot from helping others.
+
+I'm going to be studying abroad at the University of Edinburgh this fall (Fall 2018)!
 
 ### Contact Me!
 
