@@ -1,7 +1,7 @@
 ---
 layout: "cmd"
 pwd: "~"
-command: "ls -la posts/"
+command: "ls -la programming/"
 ---
 
 <div class="terminal post-grid">
@@ -15,10 +15,10 @@ command: "ls -la posts/"
   <a href="/posts"><span class="post-grid-item-static">{{"now" | date: "%Y-%m-%d %H:%M" }}</span></a>
   <a href="/posts"><span class="post-grid-item-static">.</span></a>
 
-  {% for post in site.posts %}
+  {% for post in site.categories['programming'] %}
     <a href={{post.url}}><span class="post-grid-item">-rw-r--r--</span></a>
     <a href={{post.url}}><span class="post-grid-item">michael</span></a>
     <a href={{post.url}}><span class="post-grid-item">{{post.date | date: "%Y-%m-%d %H:%M" }}</span></a>
     <a href={{post.url}}><span class="post-grid-item">{{post.short_title}}</span></a>
   {% endfor %}
-</nav>
+</div>

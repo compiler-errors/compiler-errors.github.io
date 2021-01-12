@@ -13,8 +13,8 @@ defaults:
       hostname: "michael@errs.io"
       directories:
         -
-          name: "posts/"
-          link: "/posts"
+          name: "programming/"
+          link: "/programming"
           color: ForestGreen
         -
           name: "github/"
@@ -24,7 +24,7 @@ defaults:
           name: "whoami.txt"
           link: "/"
           color: DodgerBlue
-        -
-          name: "resume.pdf"
-          link: "/resume.pdf"
-          color: DodgerBlue
+#        -
+#          name: "resume.pdf"
+#          link: "/resume.pdf"
+#          color: DodgerBlue
