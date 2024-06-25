@@ -1,3 +1,7 @@
 # Howdy! 
 
-My résumé can be found [here](/resume.pdf).
+My résumé is way out of date, so I removed it.
+
+## "Blog" posts
+
+- Async closures: https://hackmd.io/@compiler-errors/async-closures
