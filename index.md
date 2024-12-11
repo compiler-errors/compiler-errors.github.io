@@ -11,6 +11,7 @@ My résumé is way out of date, so I removed it.
 ## This month in @compiler-errors
 
 - October: <https://hackmd.io/@compiler-errors/errs-october>.
+- November: <https://hackmd.io/@compiler-errors/errs-november>.
 
 ## Cool things I've stabilized
 
