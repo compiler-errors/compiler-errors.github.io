@@ -1,8 +1,0 @@
-title: Michael Goulet
-description: I make the <a href="https://github.com/rust-lang/rust/pulls?q=is%3Apr+author%3Acompiler-errors">Rust</a> compiler better. member of the types team, diagnostics working group, compiler contributor ⚙️🦀🧮.
-url: "https://www.errs.io"
-github_username: compiler-errors
-logo: https://avatars.githubusercontent.com/u/3674314?v=4
-plugins:
-- jekyll-remote-theme
-remote_theme: pages-themes/minimal@v0.2.0
