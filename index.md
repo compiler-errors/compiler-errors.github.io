@@ -10,8 +10,9 @@ My résumé is way out of date, so I removed it.
 
 ## This month in @compiler-errors
 
-- October: <https://hackmd.io/@compiler-errors/errs-october>.
-- November: <https://hackmd.io/@compiler-errors/errs-november>.
+- October 2024: <https://hackmd.io/@compiler-errors/errs-october>.
+- November 2024: <https://hackmd.io/@compiler-errors/errs-november>.
+- December 2024: <https://hackmd.io/@compiler-errors/errs-december-2024>.
 
 ## Cool things I've stabilized
 
