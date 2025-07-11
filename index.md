@@ -1,6 +1,6 @@
 # Howdy! 
 
-My résumé is way out of date, so I removed it.
+My résumé can be found [here](/resume.pdf).
 
 ## "Blog" posts
 
